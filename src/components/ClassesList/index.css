@@ -1,0 +1,22 @@
+.classes-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px;
+    background-color: aquamarine;
+    text-align: center;
+    box-shadow: 0 0 20px 0 #000000;
+}
+
+.classes-list:hover {
+    background-image: linear-gradient(to bottom,black, black, red);
+    color: #ffffff;
+}

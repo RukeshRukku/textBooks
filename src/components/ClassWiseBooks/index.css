@@ -1,0 +1,44 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.first_new {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ul_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.hr{
+    width: 100%;
+    border: 1.5px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 #000000;
+}
+
+.p{
+    margin: 20px;
+}
+
+.no-result {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

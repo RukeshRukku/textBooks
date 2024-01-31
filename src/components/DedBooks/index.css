@@ -1,0 +1,63 @@
+.ded-bg {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.ded-books-li {
+    list-style-type: none;
+    align-self: center;
+    width: 100%;
+}
+
+.ded-li {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(247, 160, 189);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.hr1{
+    width: 100%;
+    border: 1.5px solid black;
+    box-shadow: 0 0 20px black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.ded-1-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ded-head{
+    align-self: center;
+}
+
+.flex-ded{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.books-span{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.ded-hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
